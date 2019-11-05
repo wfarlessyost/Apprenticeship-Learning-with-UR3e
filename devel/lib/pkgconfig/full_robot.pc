@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: full_robot
+Description: Description of full_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/will/ur3_ws/devel/lib 
+Requires: 
