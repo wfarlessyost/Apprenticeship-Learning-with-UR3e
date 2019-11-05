@@ -22,7 +22,7 @@
 
   
   <joint name="er5_to_ur3e" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="0 0 -1.57"/>
     <parent link="er5_body_link"/>
     <child link="base_link"/>
   </joint>
