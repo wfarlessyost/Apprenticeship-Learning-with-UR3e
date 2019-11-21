@@ -1,4 +1,4 @@
-# Dr.-Bogert-Apprenticeship-Learning-Research
+# Apprenticeship-Learning-with-UR3e
 
 <b> Bring up simulation </b>: <br>
 roslaunch full_robot full_robot.launch <br>
