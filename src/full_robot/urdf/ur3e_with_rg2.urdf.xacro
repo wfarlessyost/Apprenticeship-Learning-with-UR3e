@@ -28,12 +28,11 @@
   </joint>
 
   <joint name="ur3e_to_gripper" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0.0" rpy="0 0 0"/>
     <parent link="tool0"/>
     <child link="gripper_extender_link"/>
   </joint>
   
-
   <link name="world" />
 
   <joint name="world_joint" type="fixed">
@@ -41,5 +40,6 @@
     <child link = "er5_body_link" />
     <origin xyz="0.0 0.0 1" rpy="0.0 0.0 0.0" />
   </joint>
+  
 
 </robot>

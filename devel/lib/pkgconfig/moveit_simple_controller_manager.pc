@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: moveit_simple_controller_manager
+Description: Description of moveit_simple_controller_manager
+Version: 0.9.12
+Cflags: -I/home/will/ur3_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include
+Libs: -L/home/will/ur3_ws/devel/lib 
+Requires: moveit_core actionlib control_msgs

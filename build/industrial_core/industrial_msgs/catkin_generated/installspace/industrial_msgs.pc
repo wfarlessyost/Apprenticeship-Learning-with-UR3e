@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/install
+
+Name: industrial_msgs
+Description: Description of industrial_msgs
+Version: 0.7.1
+Cflags: -I/home/will/ur3_ws/install/include
+Libs: -L/home/will/ur3_ws/install/lib 
+Requires: message_runtime std_msgs trajectory_msgs

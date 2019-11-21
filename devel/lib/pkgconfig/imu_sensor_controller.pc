@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: imu_sensor_controller
+Description: Description of imu_sensor_controller
+Version: 0.13.5
+Cflags: -I/home/will/ur3_ws/src/ros_controllers/imu_sensor_controller/include
+Libs: -L/home/will/ur3_ws/devel/lib -limu_sensor_controller
+Requires: controller_interface hardware_interface pluginlib realtime_tools roscpp sensor_msgs

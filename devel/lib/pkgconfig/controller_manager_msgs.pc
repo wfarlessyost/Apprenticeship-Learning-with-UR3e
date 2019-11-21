@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: controller_manager_msgs
+Description: Description of controller_manager_msgs
+Version: 0.13.3
+Cflags: -I/home/will/ur3_ws/devel/include
+Libs: -L/home/will/ur3_ws/devel/lib 
+Requires: std_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/install
+
+Name: moveit_fake_controller_manager
+Description: Description of moveit_fake_controller_manager
+Version: 0.9.12
+Cflags: 
+Libs: -L/home/will/ur3_ws/install/lib 
+Requires: moveit_core moveit_ros_planning

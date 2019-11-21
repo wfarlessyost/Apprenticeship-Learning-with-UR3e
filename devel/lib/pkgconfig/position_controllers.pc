@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: position_controllers
+Description: Description of position_controllers
+Version: 0.13.5
+Cflags: -I/home/will/ur3_ws/src/ros_controllers/position_controllers/include
+Libs: -L/home/will/ur3_ws/devel/lib -lposition_controllers
+Requires: controller_interface forward_command_controller

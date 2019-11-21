@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 0.9.12
+Cflags: 
+Libs: -L/home/will/ur3_ws/devel/lib 
+Requires: 

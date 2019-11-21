@@ -1,0 +1,8 @@
+prefix=/home/will/ur3_ws/devel
+
+Name: moveit_controller_manager_example
+Description: Description of moveit_controller_manager_example
+Version: 0.9.12
+Cflags: 
+Libs: -L/home/will/ur3_ws/devel/lib 
+Requires: moveit_core
