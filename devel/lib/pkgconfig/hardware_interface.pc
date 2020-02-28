@@ -1,8 +1,0 @@
-prefix=/home/will/ur3_ws/devel
-
-Name: hardware_interface
-Description: Description of hardware_interface
-Version: 0.13.3
-Cflags: -I/home/will/ur3_ws/src/ros_control/hardware_interface/include
-Libs: -L/home/will/ur3_ws/devel/lib 
-Requires: roscpp

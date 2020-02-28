@@ -4,5 +4,5 @@ Name: full_robot_moveit_config
 Description: Description of full_robot_moveit_config
 Version: 1.2.5
 Cflags: 
-Libs: -L/home/will/ur3_ws/install/lib 
+Libs: -L${prefix}/lib 
 Requires: 

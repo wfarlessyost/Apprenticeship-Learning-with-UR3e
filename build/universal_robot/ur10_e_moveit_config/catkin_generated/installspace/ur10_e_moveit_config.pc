@@ -2,7 +2,7 @@ prefix=/home/will/ur3_ws/install
 
 Name: ur10_e_moveit_config
 Description: Description of ur10_e_moveit_config
-Version: 1.2.5
+Version: 1.2.7
 Cflags: 
-Libs: -L/home/will/ur3_ws/install/lib 
+Libs: -L${prefix}/lib 
 Requires: 

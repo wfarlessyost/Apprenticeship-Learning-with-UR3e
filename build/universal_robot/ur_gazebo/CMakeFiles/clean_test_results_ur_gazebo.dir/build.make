@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/will/ur3_ws/build
 include universal_robot/ur_gazebo/CMakeFiles/clean_test_results_ur_gazebo.dir/progress.make
 
 universal_robot/ur_gazebo/CMakeFiles/clean_test_results_ur_gazebo:
-	cd /home/will/ur3_ws/build/universal_robot/ur_gazebo && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/will/ur3_ws/build/test_results/ur_gazebo
+	cd /home/will/ur3_ws/build/universal_robot/ur_gazebo && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/will/ur3_ws/build/test_results/ur_gazebo
 
 clean_test_results_ur_gazebo: universal_robot/ur_gazebo/CMakeFiles/clean_test_results_ur_gazebo
 clean_test_results_ur_gazebo: universal_robot/ur_gazebo/CMakeFiles/clean_test_results_ur_gazebo.dir/build.make

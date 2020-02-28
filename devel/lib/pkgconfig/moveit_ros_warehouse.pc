@@ -1,8 +1,0 @@
-prefix=/home/will/ur3_ws/devel
-
-Name: moveit_ros_warehouse
-Description: Description of moveit_ros_warehouse
-Version: 0.9.12
-Cflags: -I/home/will/ur3_ws/src/moveit/moveit_ros/warehouse/warehouse/include
-Libs: -L/home/will/ur3_ws/devel/lib -lmoveit_warehouse
-Requires: moveit_ros_planning warehouse_ros

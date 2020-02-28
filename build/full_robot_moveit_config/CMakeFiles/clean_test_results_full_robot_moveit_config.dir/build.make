@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/will/ur3_ws/build
 include full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/progress.make
 
 full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config:
-	cd /home/will/ur3_ws/build/full_robot_moveit_config && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/will/ur3_ws/build/test_results/full_robot_moveit_config
+	cd /home/will/ur3_ws/build/full_robot_moveit_config && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/will/ur3_ws/build/test_results/full_robot_moveit_config
 
 clean_test_results_full_robot_moveit_config: full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config
 clean_test_results_full_robot_moveit_config: full_robot_moveit_config/CMakeFiles/clean_test_results_full_robot_moveit_config.dir/build.make

@@ -14,7 +14,11 @@
 
 
   <!-- arm -->
-  <xacro:ur3e_robot prefix="" joint_limited="false"/>
+  <xacro:arg name="kinematics_config" default="$(find ur_e_description)/config/ur3e_default.yaml"/>
+  <xacro:ur3e_robot prefix="" joint_limited="false"
+    kinematics_file="${load_yaml('$(arg kinematics_config)')}"
+  />
+
   <xacro:rg2 prefix=""/>
   <xacro:er5 prefix=""/>
 

@@ -1,8 +1,0 @@
-prefix=/home/will/ur3_ws/devel
-
-Name: industrial_utils
-Description: Description of industrial_utils
-Version: 0.7.1
-Cflags: -I/home/will/ur3_ws/src/industrial_core/industrial_utils/include
-Libs: -L/home/will/ur3_ws/devel/lib -lindustrial_utils
-Requires: roscpp urdf

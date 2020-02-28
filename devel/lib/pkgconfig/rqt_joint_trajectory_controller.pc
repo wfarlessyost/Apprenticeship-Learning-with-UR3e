@@ -1,8 +1,0 @@
-prefix=/home/will/ur3_ws/devel
-
-Name: rqt_joint_trajectory_controller
-Description: Description of rqt_joint_trajectory_controller
-Version: 0.13.5
-Cflags: 
-Libs: -L/home/will/ur3_ws/devel/lib 
-Requires: 

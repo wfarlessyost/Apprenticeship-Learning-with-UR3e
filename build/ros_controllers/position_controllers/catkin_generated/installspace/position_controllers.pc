@@ -1,8 +1,0 @@
-prefix=/home/will/ur3_ws/install
-
-Name: position_controllers
-Description: Description of position_controllers
-Version: 0.13.5
-Cflags: -I/home/will/ur3_ws/install/include
-Libs: -L/home/will/ur3_ws/install/lib -lposition_controllers
-Requires: controller_interface forward_command_controller

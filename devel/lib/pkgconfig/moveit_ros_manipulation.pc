@@ -1,8 +1,0 @@
-prefix=/home/will/ur3_ws/devel
-
-Name: moveit_ros_manipulation
-Description: Description of moveit_ros_manipulation
-Version: 0.9.12
-Cflags: -I/home/will/ur3_ws/devel/include -I/home/will/ur3_ws/src/moveit/moveit_ros/manipulation/pick_place/include -I/home/will/ur3_ws/src/moveit/moveit_ros/manipulation/move_group_pick_place_capability/include -I/usr/include/eigen3
-Libs: -L/home/will/ur3_ws/devel/lib -lmoveit_pick_place_planner
-Requires: moveit_core moveit_ros_planning

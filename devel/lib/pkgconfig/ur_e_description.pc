@@ -4,5 +4,5 @@ Name: ur_e_description
 Description: Description of ur_e_description
 Version: 1.2.5
 Cflags: 
-Libs: -L/home/will/ur3_ws/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 
