@@ -2792,6 +2792,32 @@ octomap_msgs_generate_messages_cpp/fast:
 .PHONY : octomap_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named moveit_ros_manipulation_gencfg
+
+# Build rule for target.
+moveit_ros_manipulation_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_ros_manipulation_gencfg
+.PHONY : moveit_ros_manipulation_gencfg
+
+# fast build rule for target.
+moveit_ros_manipulation_gencfg/fast:
+	$(MAKE) -f pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build.make pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build
+.PHONY : moveit_ros_manipulation_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named pick_place
+
+# Build rule for target.
+pick_place: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pick_place
+.PHONY : pick_place
+
+# fast build rule for target.
+pick_place/fast:
+	$(MAKE) -f pick_place/CMakeFiles/pick_place.dir/build.make pick_place/CMakeFiles/pick_place.dir/build
+.PHONY : pick_place/fast
+
+#=============================================================================
 # Target rules for targets named _run_tests_full_robot_moveit_config_roslaunch-check
 
 # Build rule for target.
@@ -3981,6 +4007,8 @@ help:
 	@echo "... object_recognition_msgs_generate_messages_lisp"
 	@echo "... object_recognition_msgs_generate_messages_nodejs"
 	@echo "... octomap_msgs_generate_messages_cpp"
+	@echo "... moveit_ros_manipulation_gencfg"
+	@echo "... pick_place"
 	@echo "... _run_tests_full_robot_moveit_config_roslaunch-check"
 	@echo "... _run_tests_full_robot_moveit_config"
 	@echo "... run_tests_full_robot_moveit_config_roslaunch-check"

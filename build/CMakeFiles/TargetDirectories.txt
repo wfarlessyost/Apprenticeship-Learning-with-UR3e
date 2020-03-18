@@ -326,6 +326,15 @@
 /home/will/ur3_ws/build/fmauch_universal_robot/ur_kinematics/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir
 /home/will/ur3_ws/build/fmauch_universal_robot/ur_kinematics/CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir
 /home/will/ur3_ws/build/fmauch_universal_robot/ur_kinematics/CMakeFiles/octomap_msgs_generate_messages_cpp.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/rebuild_cache.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/edit_cache.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/test.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/list_install_components.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/install.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/moveit_ros_manipulation_gencfg.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/install/local.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/pick_place.dir
+/home/will/ur3_ws/build/pick_place/CMakeFiles/install/strip.dir
 /home/will/ur3_ws/build/full_robot_moveit_config/CMakeFiles/install.dir
 /home/will/ur3_ws/build/full_robot_moveit_config/CMakeFiles/rebuild_cache.dir
 /home/will/ur3_ws/build/full_robot_moveit_config/CMakeFiles/_run_tests_full_robot_moveit_config_roslaunch-check.dir

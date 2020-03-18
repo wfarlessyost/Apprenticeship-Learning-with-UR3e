@@ -15,8 +15,14 @@
 
   <!-- arm -->
   <xacro:arg name="kinematics_config" default="$(find ur_e_description)/config/ur3e_default.yaml"/>
-  <xacro:ur3e_robot prefix="" joint_limited="false"
+  <xacro:ur3e_robot prefix="" joint_limited="true"
     kinematics_file="${load_yaml('$(arg kinematics_config)')}"
+    shoulder_pan_lower_limit="${-pi}" shoulder_pan_upper_limit="${pi}"
+    shoulder_lift_lower_limit="${-pi}" shoulder_lift_upper_limit="${pi}"
+    elbow_joint_lower_limit="${-pi}" elbow_joint_upper_limit="${pi}"
+    wrist_1_lower_limit="${-pi}" wrist_1_upper_limit="${pi}"
+    wrist_2_lower_limit="${-pi}" wrist_2_upper_limit="${pi}"
+    wrist_3_lower_limit="${-pi}" wrist_3_upper_limit="${pi}"
   />
 
   <xacro:rg2 prefix=""/>
@@ -24,7 +30,7 @@
 
   <!-- joints required to connect  -->
 
-  
+
   <joint name="er5_to_ur3e" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 -1.57"/>
     <parent link="er5_body_link"/>
@@ -34,9 +40,10 @@
   <joint name="ur3e_to_gripper" type="fixed">
     <origin xyz="0 0 0.0" rpy="0 0 0"/>
     <parent link="tool0"/>
+    <parent link="wrist_3_link" />
     <child link="gripper_extender_link"/>
   </joint>
-  
+
   <link name="world" />
 
   <joint name="world_joint" type="fixed">
@@ -44,6 +51,6 @@
     <child link = "er5_body_link" />
     <origin xyz="0.0 0.0 1" rpy="0.0 0.0 0.0" />
   </joint>
-  
+
 
 </robot>
