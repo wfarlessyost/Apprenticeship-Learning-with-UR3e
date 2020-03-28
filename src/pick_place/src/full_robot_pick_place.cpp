@@ -54,8 +54,8 @@ void pick(moveit::planning_interface::MoveGroupInterface& move_group)
   grasps[0].pre_grasp_approach.direction.header.frame_id = "world";
   /* Direction is set as negative z axis */
   grasps[0].pre_grasp_approach.direction.vector.z = -1.0;
-  grasps[0].pre_grasp_approach.min_distance = 0.01;
-  grasps[0].pre_grasp_approach.desired_distance = 0.0115;
+  grasps[0].pre_grasp_approach.min_distance = .001; //0.01;
+  grasps[0].pre_grasp_approach.desired_distance = .00115; //0.0115;
 
   // Setting post-grasp retreat
   // ++++++++++++++++++++++++++
@@ -63,8 +63,8 @@ void pick(moveit::planning_interface::MoveGroupInterface& move_group)
   grasps[0].post_grasp_retreat.direction.header.frame_id = "world";
   /* Direction is set as positive z axis */
   grasps[0].post_grasp_retreat.direction.vector.z = 1;
-  grasps[0].post_grasp_retreat.min_distance = 0.01;
-  grasps[0].post_grasp_retreat.desired_distance = 0.025;
+  grasps[0].post_grasp_retreat.min_distance = .001; //0.01;
+  grasps[0].post_grasp_retreat.desired_distance = .0025; //0.025;
 
   // Setting posture of eef before grasp
   // +++++++++++++++++++++++++++++++++++
@@ -210,23 +210,21 @@ int main(int argc, char** argv)
   // Wait a bit for ROS things to initialize
   ros::WallDuration(10.0).sleep();
 
-  //pick(group);
+  pick(group);
 
-  //ros::WallDuration(1.0).sleep();
+  ros::WallDuration(1.0).sleep();
 
-  //place(group);
+  place(group);
 
   // place grasp pose
-  geometry_msgs::Pose target_pose;
+  /*geometry_msgs::Pose target_pose;
   target_pose.position.x = 0.25;
   target_pose.position.y = .35;
   target_pose.position.z = 0.95;
   target_pose.orientation.x = 0.5;
   target_pose.orientation.y = 0.5;
   target_pose.orientation.z = -0.5;
-  target_pose.orientation.w = 0.5;
-
-  
+  target_pose.orientation.w = 0.5;*/
   
 
   // pick grasp pose
